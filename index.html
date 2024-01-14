@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="Navbar-Section">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="flex: display; flex-direction: row-reverse;">
+            <a class="navbar-brand noto-sans " href="#" style="color: #190482;"><img src="./images/Icons/grid.svg" alt="Icon" class="icon"> E-Portfolio</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto" id="ul-navbar">
+                <li class="nav-item active noto-sans">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item noto-sans">
+                  <a class="nav-link" href="#">Showcase</a>
+                </li>
+                <li class="nav-item noto-sans">
+                  <a class="nav-link noto-sans" href="#">Skills</a>
+                </li>
+                <li class="nav-item noto-sans">
+                    <a class="nav-link noto-sans" href="#">Education</a>
+                </li>
+                <li class="nav-item noto-sans">
+                    <a class="nav-link noto-sans" href="#">Experience</a>
+                </li>
+                <li class="nav-item noto-sans">
+                    <a class="nav-link noto-sans" href="#">Interests</a>
+                </li>
+                <li class="nav-item noto-sans">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    
+    <section class="Home-Section">
+        <div id="Title-area" style="flex: 1; margin-left: 50px;">
+            <h1 class="Oswald">Hello! I'm <span style="color: #8E8FFA;">Alex Wong</span>..</h1>
+            <p class="noto-sans">Welcome to my <span style="color: #8E8FFA;">E-Portfolio</span>,<br>I hope you enjoy your stay.</p>
+        </div>
+        <div id="Title-img" style="flex: 1; display: flex; flex-direction: column;">
+            <img src="./images/ProfilePicture.jpg" alt="profile picture" style="width: 500px; height: 500px; border-radius: 50%; border: 5px solid #C2D9FF; margin-left: 20%; margin-bottom: 40px;">
+            <p class="noto-sans">An <span style="color: #8E8FFA;">independant</span> and <span style="color: #8E8FFA;">hard-working</span><br>18-year-old striving to join and<br>be <span style="color: #8E8FFA;">a part of</span> a working environment<br>to gain practical experience for a<br>planned future in the <span style="color: #8E8FFA;">IT industry</span>.</p>
+        </div>
+    </section>
+
+    <section class="Project-Showcase-Section">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="Oswald display-6" style="color: #190482;">Learning Showcase <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+              </svg></h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/Udemy.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">The Complete 2024 Web Development Bootcamp by Dr.Angela Yu to make webpages such as this one</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans"> (Currently learning) 2024</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/SFML.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">C++ and a C++ graphics library called SFML to make games such as snake</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans">2023</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/unity.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">A level Computer Science NEA Unity 2D hitman game using C# and Unity's API</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans">2023</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="Soft-Skills-Section">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="Oswald display-6" style="color: #190482;">Skills <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+              </svg></h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('././images/rugby.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">Rugby has taught me <span style="color: #7752FE;">Determination</span></h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/mma.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">Mixed martial arts has taught me <span style="color: #7752FE;">Leadership and resilience</span></h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/football.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 noto-sans" style="color: #8E8FFA;">Football has taught me <span style="color: #7752FE;">Teamwork</span></h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="Education-Section">
+        <div class="container px-4">
+            <h2 class="Oswald display-6 pb-3" style="color: #190482;">Education <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"/>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"/>
+              </svg></h2>
+            <div>
+                <div id="School" style="flex: 1">
+                    <h4 style="color: #7752FE;" class="Oswald">Hinchley Wood Secondary School</h4>
+                    <div class="container px-4 py-5 pl-0" id="custom-cards">
+                        <div class="col" style="position: relative; right: 25px; height: 250px; width: auto;">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/hinchleywood.png');">
+                              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">                                <ul class="d-flex list-unstyled mt-auto">
+                                  <li class="d-flex align-items-center me-3">
+                                    <small style="color: #190482;" class="noto-sans">September 2016 to July 2021</small>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div>
+                        <div class="container px-0 py-5" id="icon-grid">
+                            <h2 class="Oswald" style="color: #7752FE;">Grades</h2>
+                        
+                            <div class="grades row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5" style="position: relative; right: 45px;">
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Mathematics</h3>
+                                  <p>GCSE Grade 7 achieved in the higher tier.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Combined Science</h3>
+                                  <p>GCSE Grade 7-6 achieved in the higher tier, counts as two GCSE's.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Business Studies</h3>
+                                  <p>GCSE Grade 6 achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Computer Science</h3>
+                                  <p>GCSE Grade 6 achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">English Literatue</h3>
+                                  <p>GCSE Grade 6 achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">English Language</h3>
+                                  <p>GCSE Grade 6 achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">History</h3>
+                                  <p>GCSE Grade 6 achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Construction</h3>
+                                  <p>BTEC Level 1 certificate Pass achieved</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div id="School" style="flex: 1">
+                    <h4 style="color: #7752FE;" class="Oswald">Esher Six Form College</h4>
+                    <div class="container px-4 py-5 pl-0" id="custom-cards">
+                        <div class="col" style="position: relative; right: 25px; height: 250px; width: auto;">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/college.jpg');">
+                              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">                                <ul class="d-flex list-unstyled mt-auto">
+                                  <li class="d-flex align-items-center me-3">
+                                    <small style="color: #190482;" class="noto-sans">September 2021 to July 2023</small>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div>
+                        <div class="container px-0 py-5" id="icon-grid">
+                            <h2 class="Oswald" style="color: #7752FE;">Grades</h2>
+                        
+                            <div class="grades row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5" style="position: relative; right: 45px;">
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Mathematics</h3>
+                                  <p>A Level Grade A achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">Computer Science</h3>
+                                  <p>A Level Grade A achieved.</p>
+                                </div>
+                              </div>
+                              <div class="col d-flex align-items-start">
+                                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                                <div>
+                                  <h3 class="fw-bold mb-0 fs-4">3D Design</h3>
+                                  <p>A Level Grade A achieved.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Work-Experience-Section">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="Oswald display-6" style="color: #190482;">Work Experience <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+              </svg></h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/orange.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-3 font-weight-bold" style="color: #190482;">Dominos</h2>
+                    <h3 class="mt-3 mb-4 lh-1 noto-sans" style="color: #1642a1; font-size: x-large;">I was employed as a Team Member on predominantly weekend evening shifts during peak times of high demand. My
+                        responsibilities included food preparation, collation of orders, end of shift cleaning and equipment sanitisation, and
+                        working as part of a team to ensure smooth and efficient processing of multiple customer orders during busy
+                        periods. 
+                        </h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans">October 2022 – Feb 2023</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/orange.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-3 font-weight-bold" style="color: #190482;">8BillionIdeas</h2>
+                    <h3 class="mt-3 mb-4 lh-1 noto-sans" style="color: #1642a1; font-size: x-large;">During the first year of 6th form college, I took part in The Internship 2022 hosted by the company 8Billionideas.
+                        They hosted a 3-day workshop via a digital platform recreating a virtual work setting where we participated in
+                        individual assignments, team projects and collaboration in a corporate environment. 
+                        </h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans">May 2022</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/orange.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-3 font-weight-bold" style="color: #190482;">Sainsbury’s</h2>
+                    <h3 class="mt-3 mb-4 lh-1 noto-sans" style="color: #1642a1; font-size: x-large;">I worked at Sainsbury’s full time as a code checker, my job there was to check the dates of all our products to
+                        make sure they are not out of date which would be bad for the business if they sold out of date products.</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <small style="color: #C2D9FF;" class="noto-sans">October 2023 – Janurary 2024</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="Interests-Section container px-4 py-5">
+        <h2 class="Oswald display-6 mb-5" style="color: #190482;">Sports & Hobbies<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+          </svg>
+        </h2>
+        <div class="container" id="grid-container">
+            <p class="noto-sans">One of my longest participations in sport was playing rugby. I started at the age of four and have only recently
+                stopped playing to focus on other activities. In total I played for three different clubs over the years: Old
+                Cranleighans RFC, King’s KCS Old Boys RFC, and most recently Reeds Weybridge RFC. My normal position was a
+                second row forward. One of my proudest moments was in spring 2019 when we came runners up in the Surrey
+                Waterfall Cup. Rugby taught me many skills which really helped me in daily life such as discipline, sportsmanship,
+                determination and staying calm under pressure. 
+            </p>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/rugbywc.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/thai.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+
+            <p>
+                During the latter half of the covid pandemic when restrictions were relaxed, I signed up to a local martial arts club to
+                learn the disciplines Muay Thai, Brazilian Jiu-Jitsu and MMA (Mixed Martial Arts) taking five to six classes a week, and
+                I keep to this routine. I also do weightlifting in the clubs gym twice a week, and I do this to keep my strong and
+                healthy.Aside from sports I really enjoy entertaining people and having a laugh. I was able to achieve this by having a
+                YouTube channel peaking at 120 subscribers and being able to make videos such as horror games and animations
+                using SFX. I could do this by editing my videos using software such as Shotcut. I also started another channel on
+                YouTube specifically for gaming videos only.
+            </p>
+
+            <p>
+                I have also recently started learning C++ and the OOP structure with it. Using what I learnt and the basics, I was able
+                to make a nought and crosses game within a couple of hours. From here, I would like to also widen my coding skills
+                from C++ and be able to branch out to different programming languages such as GCS Script and using different
+                libraries such as SDL2 to create games with a graphical interface. And currently, I have made multiple games with
+                SFML such as Connect 4, snake, etcetera while continuing to learn more of it (C++ graphics library). I have also recently
+                moved onto web development which includes me learning HTML, CSS, React.js and more!
+            </p>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/C++.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Contact-Section container px-4 py-5">
+        <h2 class="Oswald display-6 mb-5" style="color: #190482;">Contact Me<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg></h2>
+        <div class="flex-container">
+            <div id="email">
+                <h5 class="Oswald" style="color: #190482">Email me at:</h5>
+                <p class="noto-sans" style="color: #8E8FFA;">A1exW0ng@proton.me</p>
+            </div>
+            <div id="phone">
+                <h5 class="Oswald" style="color: #190482">Call me at:</h5>
+                <p class="noto-sans" style="color: #8E8FFA;">+44 74841 40052</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Alex Wong's E-Portfolio</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/alex-wong-376b6a260/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/AlexWong007/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></svg></a></li>
+    </ul>
+</footer>
+<footer2 class="wave"></footer2>
+</html>

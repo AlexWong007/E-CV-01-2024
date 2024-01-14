@@ -1,0 +1,153 @@
+/*  Darkest blue-#190482, #7752FE, #8E8FFA, Lightest-blue-#C2D9FF */
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #1642a1, #3887BE, #38419D, #808080);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+#ul-navbar > li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#ul-navbar > li > a {
+    color: #190482;
+}
+
+.noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.Oswald {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icon {
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.Home-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #190482;
+    text-align: left;
+    font-size: 5rem;
+    margin-left: 225px;
+}
+
+#Title-area > p {
+    color: #190482;
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 225px;
+}
+
+#Title-img > p {
+    color: #190482;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-left: 26%;
+}
+
+.grades > div > div > h3 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #8E8FFA;
+}
+
+.grades > div > div > p {
+    font-family: 'Noto Sans', sans-serif;
+    color: #C2D9FF;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    right: 10px;
+}
+
+#grid-container > p {
+    font-family: 'Noto Sans', sans-serif;
+    color: #C2D9FF;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
